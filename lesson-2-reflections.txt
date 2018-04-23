@@ -1,6 +1,18 @@
 What happens when you initialize a repository? Why do you need to do it?
      A .git group file is created to track any changes made to all file(s) added to the group/repository.
 
+How is the staging area different from the working directory and the repository?
+     The staging area is a temporary holding area for original files prior to grouping them as a repository
+     where any changes in the group will be tracked, commented, and easily reverted to an earlier save point.
+
+     The working directory is the location of original files.  Any direct changes saved to the files in the
+     working directory are simple over-writes of the data and are not tracked, commented, or easily reverted to an earlier
+     point.
+
+What value do you think it offers?
+     The staging area gives us to make changes to a repository in a way that allows a logical progression
+     for easy comparison, revision, or reversion to an earlier point.  It allows us to be
+     sure our changes are the way we want prior to committing to them and to add comments for later reference.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
