@@ -25,6 +25,7 @@ How would branches help?
      Branches will allow us to see how the implementation of new features would affect the performance.
 
 How do the diagrams help you visualize the branch structure?
+     It makes it easy to see what features are carried through which branch and where they diverged.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
