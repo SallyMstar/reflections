@@ -31,5 +31,8 @@ What is the result of merging two branches together?
      Merging will combine any modifications made on selected branches into the main program.
 Why do we represent it in the diagram the way we do?
      The diagram allows us to see the direct line of commits in the separate branches prior to the merge.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+     The automatic merge will help to eliminate the errors and omissions of manual
+     merging; however, manual merging allows more control and flexibility of choice.
